@@ -1,0 +1,313 @@
+* {
+    text-decoration: none !important;
+}
+
+#presentation {
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+
+}
+
+.titrecarrousel{
+    font-size:xx-large;
+}
+
+.separator {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titre-block {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.card-home {
+    padding: 0%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.card-body {
+    height: 25%;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 10;
+    background: black;
+    left: 0;
+    bottom: 0;
+    opacity: 50%;
+    color: white;
+    width: 100%;
+    height: 20%;
+    padding-left: 5%;
+    text-align: start;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+
+    height: 90%;
+}
+
+
+.text-container {
+    height: fit-content;
+    visibility: hidden;
+    transform: translateY(0%);
+    opacity: 0;
+    transition: all .4s ease;
+    background: linear-gradient(15deg,#396a62, transparent 70%);
+    color: white;
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+}
+
+.active .text-container {
+    visibility: visible;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.edit-carrousel {
+    position: absolute;
+    z-index: 2;
+    margin: 1%;
+}
+
+.btn-edit {
+    position: absolute;
+    left: 1%;
+}
+
+.grostitre {
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 700%;
+    opacity: 0.2;
+    text-transform: uppercase;
+    overflow-x:hidden;
+    /* color: teal; */
+    width: 75%;
+    display: block;
+}
+
+.petittitre {
+    font-family: 'Dancing Script', cursive;
+    z-index: 1;
+    margin: 30px;
+}
+
+.stretch_it{
+    white-space: nowrap;
+}
+
+#presentation{
+    height: 10%;
+}
+
+.grostitrepresse {
+    color: goldenrod;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 700%;
+    opacity: 0.2;
+    text-transform: uppercase;
+    /* color: teal; */
+    width: 75%;
+    display: block;
+}
+
+
+#presentation-article {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+p.policeDancing{
+    font-family: 'Great Vibes', cursive;
+    font-size: xx-large;
+}
+
+.widget-avis {
+    padding-top: 5%;
+}
+
+.grostitreavis {
+    font-family: 'Dancing Script', cursive;
+    color: goldenrod;
+    position: absolute;
+    font-size: 700%;
+    opacity: 0.2;
+    text-transform: uppercase;
+    /* color: teal; */
+    width: 75%;
+    display: block;
+}
+
+
+/* CARROUSSEL PRESSE */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+#presentationarticle {
+    
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
+
+    transform-origin: center;
+    transform: perspective(1000px) rotateY(25deg);
+    transition: 0.5s;
+}
+
+.container-presse {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.card:hover {
+    opacity: 0.3;
+}
+
+.card:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+}
+
+.img-presse {
+
+    height: 20vh;
+    width: -webkit-fill-available;
+    width: -moz-available
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+}
+
+
+.carousel-inner.presse {
+    padding-top: 5%;
+    padding-bottom: 15%;
+    width: 97%;
+    margin-left: 7%;
+}
+
+.btn-presse{
+    background: linear-gradient( #396a62,#87b09e,#396a62) !important;
+    border-color: #396a62 !important;
+    color: white;
+}
+
+.carousel-control-prev-icon.presse,
+.carousel-control-next-icon.presse {
+    filter: invert(1);
+
+}
+
+.carousel-control-prev.presse {
+    max-width: 8vh;
+}
+
+.carousel-control-next.presse {
+    max-width: 10vh;
+}
+
+.carousel.presse{
+    width: 80%;
+}
+
+.alert{
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 950px){
+
+.grostitre{
+    display: none;
+}
+
+.grostitrepresse{
+    display: none;
+}
+
+.grostitreavis{
+    display: none;
+}
+
+.card {
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+
+    -webkit-box-reflect:unset ;
+
+    transform-origin: center;
+    transform: perspective(0px) rotateY(0deg);
+    transition: 0.5s;
+}
+
+.titrecarrousel {
+    font-size: 140%;
+}
+
+.text-container p{
+    font-size: 66%;
+    margin-bottom: 0%;
+}
+
+#presentation {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+.carousel.presse {
+    width: 100%;
+}
+
+#presentation-article {
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+}

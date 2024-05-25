@@ -1,0 +1,40 @@
+.container-edit {
+    background-color: rgba(0, 139, 139, 0.329);
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 2%;
+    opacity: inherit;
+
+}
+
+.form-group {
+    opacity: none !important;
+}
+
+.back {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(/image/slide2.jpg);
+    
+}
+
+form {
+    padding-bottom: 5%;
+    margin-bottom: 0% !important;
+}
+
+h2 {
+    color: rgb(1, 82, 58);
+}
+
+/* #editphoto{
+    display: block;
+    visibility: visible;
+}
+
+#photohidden{
+    visibility: hidden;
+    display: none;
+} */
